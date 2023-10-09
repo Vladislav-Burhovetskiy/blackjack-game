@@ -1,0 +1,117 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  background-image: url("images/table.png");
+  background-size: cover;
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  min-width: 300px;
+  max-width: 350px;
+}
+
+h1 {
+  position: relative;
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 1px 1px 1px rgba(231, 229, 224, 0.7);
+}
+
+#player-el {
+  display: none;
+  margin-top: 20px;
+}
+
+.create-player {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+}
+
+#go-btn {
+  width: 40px;
+}
+
+input::placeholder {
+  opacity: 80%;
+}
+
+input {
+  color: goldenrod;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  width: 86px;
+  margin-right: 4px;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: none;
+  font-size: 30px;
+  color: goldenrod;
+  text-shadow: 3px 3px 0px black;
+  background-color: rgba(248, 220, 107, 0.7);
+  padding: 38px 10px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#modal-go {
+  padding: 24px 10px;
+}
+
+span {
+  font-size: 25px;
+}
+
+.close-btn {
+  position: absolute;
+  top: -22px;
+  right: -20px;
+  color: black;
+  background: none;
+  color: black;
+  text-shadow: 1px 1px 2px goldenrod;
+  width: 40px;
+  padding: 0;
+  opacity: 80%;
+}
+
+.close-btn:hover {
+  color: goldenrod;
+  text-shadow: 1px 1px 2px black;
+}
